@@ -1,0 +1,27 @@
+@import '../../../assets/assets.scss';
+
+.software{
+    width: 66vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 99;
+    background-color: lightblue;
+    top: 0;
+    right: -66vw;
+    &__top{
+        font-family: $font-primary;
+        color: $primary-color;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    &__content{
+        display: grid;
+        grid-template-columns: repeat(3, 20vw);
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}

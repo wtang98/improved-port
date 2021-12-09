@@ -5,23 +5,108 @@
 }
 .nav{
     height: 100%;
-    width: 60px;
+    width: 50px;
     background-color: $primary-color;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     position: fixed;
+    z-index: 999999;
     top: 0;
     right: 0;
+    // overflow-x: hidden;
     &__home, &__software, &__ux, &__about{
         font-family: $font-primary;
         color: $tertiary-color;
         transform: rotate(90deg);
         font-weight: 500;
         margin: 5px;
-        width: 200px;
+        width: 150px;
         display: flex;
         justify-content: center;
+        padding-top: 13px;
+        cursor: pointer;
+    }
+}
+
+.softwareOff{
+    animation-name: softwarePopoutOFF;
+    animation-duration: 1.3s;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -66vw;
+    z-index: 50;
+}
+@keyframes softwarePopoutOFF {
+    0%{
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    100%{
+        right: -66vw;
+    }
+}
+
+.softwareOn{
+    animation-name: softwarePopoutON;
+    animation-duration: 1.3s;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 50;
+    margin-right: 0;
+}
+@keyframes softwarePopoutON {
+    0%{
+        right: -66vw;
+    }
+    100%{
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+}
+
+.aboutOff{
+    animation-name: aboutPopoutOFF;
+    animation-duration: 1.3s;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -66vw;
+    z-index: 50;
+}
+@keyframes aboutPopoutOFF {
+    0%{
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    100%{
+        right: -66vw;
+    }
+}
+.aboutOn{
+    animation-name: aboutPopoutON;
+    animation-duration: 1.3s;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 50;
+    margin-right: 0;
+}
+@keyframes aboutPopoutON {
+    0%{
+        right: -66vw;
+    }
+    100%{
+        position: fixed;
+        top: 0;
+        right: 0;
     }
 }
