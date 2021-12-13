@@ -1,19 +1,23 @@
 import React, {useState} from 'react'
 import './nav.scss'
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 import SoftwarePop from '../popOuts/software/software'
-import AboutPop from '../popOuts/about/about';
+import AboutPop from '../popOuts/contact/contact';
+import UXPop from '../popOuts/uxDesign/ux'
 
 const Nav = () => {
     const [softState, setSoftState] = useState(false);
     const [aboutState, setAboutState] = useState(false);
+    const [uxState, setUxState] = useState(false);
 
     const toggleSofwarePop = () => {
         setSoftState(!softState);
     }
     const toggleAboutPop = () => {
         setAboutState(!aboutState);
+    }
+    const toggleUxPop = () => {
+        setUxState(!uxState);
     }
 
 
@@ -25,11 +29,11 @@ const Nav = () => {
             <div className="nav__software" onClick={toggleSofwarePop}>
                 Software Portfolio
             </div>
-            <div className="nav__ux">
+            <div className="nav__ux" onClick={toggleUxPop}>
                 UX Design Portfolio
             </div>
             <div className="nav__about" onClick={toggleAboutPop}>
-                About
+                Contact
             </div>
             <div className={softState ? "softwareOn":"softwareOff"}>
                 <SoftwarePop toggleSofwarePop={toggleSofwarePop}/>
@@ -37,6 +41,10 @@ const Nav = () => {
             <div className={aboutState ? "aboutOn":"aboutOff"}>
                 <AboutPop toggleAboutPop={toggleAboutPop}/>
             </div>
+            <div className={uxState ? "uxOn":"uxOff"}>
+                <UXPop toggleUxPop={toggleUxPop}/>
+            </div>
+
         </div>
     )
 }

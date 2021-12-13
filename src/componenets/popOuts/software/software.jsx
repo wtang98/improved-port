@@ -1,13 +1,11 @@
 import React from 'react';
 import './software.scss';
 import Card from '../../card/Card';
-import portItems from '../../../portfolioItems';
-import AOS from 'aos';
+import portItems from '../../../jses/portfolioItems';
 import 'aos/dist/aos.css';
 import CloseIcon from '@material-ui/icons/Close';
 
 const software = ({toggleSofwarePop}) => {
-    AOS.init();
 
     const card = portItems.map((portItem)=> {
         return <Card

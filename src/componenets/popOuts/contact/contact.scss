@@ -1,0 +1,47 @@
+@import '../../../assets/assets.scss';
+
+.about{
+    width: 66vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 99;
+    background-color: lightblue;
+    top: 0;
+    right: -66vw;
+    &__top{
+        font-family: $font-primary;
+        color: $primary-color;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    &__form{
+        display: flex;
+        justify-content: center;
+        &-container{
+            &>form{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+            &-button{
+                color: lightblue;
+                background-color: $primary-color;
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                width: 300px;
+                margin-top: 5px;
+                height: 20px;
+                cursor: pointer;
+                &:hover{
+                    color: $primary-color;
+                    background-color: lightblue;
+                }
+            }
+        }
+    }
+}

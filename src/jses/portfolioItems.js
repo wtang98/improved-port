@@ -1,13 +1,13 @@
-import asset1 from "./assets/portfolioImages/calculator.PNG"
-import asset2 from "./assets/portfolioImages/game.PNG"
-import asset3 from "./assets/portfolioImages/punkapi.PNG"
-import asset4 from "./assets/portfolioImages/tickettracker.PNG"
-import asset5 from "./assets/portfolioImages/javagame.PNG"
-import asset6 from "./assets/portfolioImages/morse.PNG"
-import asset7 from "./assets/portfolioImages/airbnb.PNG"
-import asset8 from "./assets/portfolioImages/facebook.PNG"
-import asset9 from "./assets/portfolioImages/client.PNG"
-import asset10 from "./assets/portfolioImages/amazon.PNG"
+import asset1 from "../assets/portfolioImages/calculator.PNG"
+import asset2 from "../assets/portfolioImages/game.PNG"
+import asset3 from "../assets/portfolioImages/punkapi.PNG"
+import asset4 from "../assets/portfolioImages/tickettracker.PNG"
+import asset5 from "../assets/portfolioImages/javagame.PNG"
+import asset6 from "../assets/portfolioImages/morse.PNG"
+import asset7 from "../assets/portfolioImages/airbnb.PNG"
+import asset8 from "../assets/portfolioImages/facebook.PNG"
+import asset9 from "../assets/portfolioImages/client.PNG"
+import asset10 from "../assets/portfolioImages/amazon.PNG"
 
 const items = [
     {
@@ -80,6 +80,5 @@ const items = [
         title:"Amazon Clone",
         description:"An Amazon clone using react, firebase hosting, firebase database, firebase authentication, redux and Stripe Payments",
     },
-
 ]
 export default items
