@@ -30,8 +30,8 @@ const Home = () => {
                             <h1 className="end">I work to create the best looking designs with clear code.</h1>
                     </div>
                 </div>
-            <UnderLand/>
             </div>
+            <UnderLand/>
         </>
     )
 }

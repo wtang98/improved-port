@@ -69,6 +69,7 @@
                     justify-items: center;
                 }
                 h2 {
+                    margin-top: -30px;
                     grid-row: 2;
                     margin-bottom: 0.3em;
                     text-transform: uppercase;
@@ -174,7 +175,7 @@
             .card {
                 width: 25vw;
                 max-width: 350px;
-                height: 30vh;
+                height: 20vh;
                 max-height: 350px;
                 margin: 1em;
                 // perspective: 1500px;
@@ -189,14 +190,82 @@
             display: grid;
             justify-content: center;
             align-items: center;
-            grid-template-columns: repeat(1, 25vw);
+            grid-template-columns: repeat(1, 1fr);
             .card {
-                width: 30vw;
+                width: 100%;
                 max-width: 400px;
-                height: 25vh;
+                height: 23vh;
                 max-height: 350px;
                 margin: 1em;
                 perspective: 1500px;
+                .front{
+                    h2{
+                        font-size: 14px;
+                    }
+                    label{
+                        font-size: 12px;
+                    }
+                }
+                .back{
+                    .inner{
+                        .description{
+                            margin-top: -35px;
+                            margin-bottom: 29px;
+                            &>p{
+
+                            }
+                        }
+                    .button{
+                        font-size: 12px;
+                        
+                    }
+                }
+                }
+                .button{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 450px){
+    .portfolio{
+        &__content{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: 1fr;
+            .card {
+                width: 80%;
+                max-width: 400px;
+                height: 23vh;
+                max-height: 350px;
+                .front{
+                    h2{
+                        font-size: 14px;
+                    }
+                    label{
+                        font-size: 12px;
+                    }
+                }
+                .back{
+                    .inner{
+                        .description{
+                            margin-top: -35px;
+                            margin-bottom: 29px;
+                            &>p{
+
+                            }
+                        }
+                    .button{
+                        font-size: 12px;
+                        
+                    }
+                }
+                }
+                .button{
+                    font-size: 12px;
+                }
             }
         }
     }

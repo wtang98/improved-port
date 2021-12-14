@@ -15,7 +15,7 @@
     z-index: 999999;
     top: 0;
     right: 0;
-    &__home, &__software, &__ux, &__about{
+    &__software, &__ux, &__about{
         font-family: $font-primary;
         color: $tertiary-color;
         transform: rotate(90deg);
@@ -26,6 +26,16 @@
         justify-content: center;
         padding-top: 13px;
         cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .nav{
+        width: 30px;
+        &__software, &__ux, &__about{
+            padding-top: 10px;
+            font-size: 13px;
+        }
     }
 }
 

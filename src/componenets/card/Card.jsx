@@ -21,8 +21,6 @@ const Card = (props) => {
                             </div>
                             <div className="back">
                                 <div className="inner">
-                                    <div className="info">
-                                    </div>
                                     <div className="description">
                                         <p>
                                             {description}

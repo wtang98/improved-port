@@ -44,4 +44,57 @@
             }
         }
     }
+    .links{
+        display: flex;
+        flex-direction: column;
+        color: $tertiary-color;
+        text-decoration: none;
+        padding: 30px;
+        justify-content: flex-end;
+        margin-top: 23vh;
+        &>h2{
+            font-family: $font-primary;
+            color: $primary-color;
+        } 
+        &-link{
+            display: flex;
+            margin: 5px;
+            &>a{
+                margin: 5px;
+                &>img{
+                    height: 40px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 450px){
+    .about{
+        &__top{
+            &>h1{
+                font-size: 16px;
+            }
+        }
+        &__form{
+            &-container{
+                &>form{
+                    &>button{
+                        width: 200px;
+                    }
+                }
+            }
+        }
+        .links{
+            &>h2{
+                font-size: 14px;
+            }
+            &-link{
+                &>a{
+                    &>img{
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
 }

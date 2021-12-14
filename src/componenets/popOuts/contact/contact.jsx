@@ -5,6 +5,9 @@ import { TextField, Button } from "@material-ui/core";
 import emailjs from 'emailjs-com';
 import InputField from './bits/input';
 import TextareaField from './bits/text';
+import Git from '../../../assets/icons/Git.png';
+import Linked from '../../../assets/icons/Linked.png';
+import Steam from '../../../assets/icons/Steam.png'
 
 const About = ({toggleAboutPop}) => {
     const [values, setValues] = useState({
@@ -66,7 +69,18 @@ const About = ({toggleAboutPop}) => {
                 </div>
             </div>
             <div className="links">
-
+                <h2>You can also find me here:</h2>
+                <div className="links-link">
+                    <a  href="https://github.com/wtang98" target="_blank">
+                        <img src={Git} alt="Github icon" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/wei-tong-tang-81bb851b2/" target="_blank">
+                        <img src={Linked} alt="LinkedIn icon" />
+                    </a>
+                    <a href="https://steamcommunity.com/profiles/76561198049607035?utm_source=SteamLadder.com" target="_blank">
+                        <img src={Steam} alt="Steam icon" />
+                    </a>
+                </div>
             </div>
         </div>
     )

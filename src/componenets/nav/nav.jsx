@@ -5,7 +5,10 @@ import SoftwarePop from '../popOuts/software/software'
 import AboutPop from '../popOuts/contact/contact';
 import UXPop from '../popOuts/uxDesign/ux'
 
-const Nav = () => {
+
+
+const Nav = (props) => {
+    const {href} = props
     const [softState, setSoftState] = useState(false);
     const [aboutState, setAboutState] = useState(false);
     const [uxState, setUxState] = useState(false);
@@ -20,12 +23,11 @@ const Nav = () => {
         setUxState(!uxState);
     }
 
-
     return (
         <div className="nav">
-            <div className="nav__home">
+            {/* <div className="nav__home">
                 Home
-            </div>
+            </div> */}
             <div className="nav__software" onClick={toggleSofwarePop}>
                 Software Portfolio
             </div>
@@ -44,7 +46,6 @@ const Nav = () => {
             <div className={uxState ? "uxOn":"uxOff"}>
                 <UXPop toggleUxPop={toggleUxPop}/>
             </div>
-
         </div>
     )
 }

@@ -1,3 +1,120 @@
+@import '../../assets/assets.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+}
 .under{
-    
+    background-color: $secondary-color;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-primary;
+    &__row1{
+        width: 80%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $tertiary-color;
+        background-color: $primary-color;
+        border-radius: 5px;
+        &-content{
+            display: flex;
+            justify-content: space-between;
+            height: 300px;
+            display: flex;
+            color: $tertiary-color;
+            &-left{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 5px;
+                &>img{
+                    width: 70%;
+                    border-radius: 50%;
+                }
+            }
+            &-right{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color: $tertiary-color;
+                padding-right: 35px;
+            }
+        }
+    }
+    &__row2{
+        width: 65%;
+        color: $primary-color;
+        font-weight: 600;
+        &-content2{
+            .icon{
+                .icons{
+                    width: 16.666666%;
+                    overflow: hidden;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .under{
+        &__row1{
+            &-content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0;
+                &-left{
+                    &>img{
+                        width: 20%;
+                    }
+                }
+                &-right{
+                    padding: 25px;
+                }
+            }
+        }
+        &-row2{
+            &-content2{
+                .icon{
+                    .icons{
+
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 500px){
+    .under{
+        &__row1{
+            height: 500px;
+            width: 70vw;
+            &-content{
+                &-left{
+                    &>img{
+                        display: none;
+                    }
+                }
+                &-right{
+                }
+            }
+        }
+        &-row2{
+            &-content2{
+                .icon{
+                    .icons{
+
+                    }
+                }
+            }
+        }
+    }
 }

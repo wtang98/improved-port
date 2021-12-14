@@ -9,9 +9,17 @@
         border-radius: 5px;
         resize: none;
         width: 300px;
-        height: 150px;
+        height: 250px;
         font-family: $font-primary;
         color: $primary-color;
         outline: none;
+        background-color: $secondary-color;
+    }
+}
+@media only screen and (max-width: 450px){
+    .text{
+        &>textarea{
+            width: 200px;
+        }
     }
 }
