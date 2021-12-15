@@ -9,11 +9,11 @@ const software = ({toggleSofwarePop}) => {
 
     const card = portItems.map((portItem)=> {
         return <Card
-        gHubUrl={portItem.gHubUrl} 
-        cardId={portItem.cardId} 
-        backgroundImagePath={portItem.backgroundImagePath}
-        title={portItem.title}
-        description={portItem.description}
+            gHubUrl={portItem.gHubUrl} 
+            cardId={portItem.cardId} 
+            backgroundImagePath={portItem.backgroundImagePath}
+            title={portItem.title}
+            description={portItem.description}
         />
     })
 

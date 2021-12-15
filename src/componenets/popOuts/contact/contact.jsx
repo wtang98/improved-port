@@ -56,7 +56,7 @@ const About = ({toggleAboutPop}) => {
                 <CloseIcon onClick={toggleAboutPop}/>
             </div>
             <div className="about__form">
-                <div className="about__form-container">
+            <div className="about__form-container">
                     {status && renderAlert()}
                     <form onSubmit={handleSubmit}>
                         <InputField value={values.user_name} handleChange={handleChange} label="Full Name" name="user_name" type="text" placeholder="John Doe" />

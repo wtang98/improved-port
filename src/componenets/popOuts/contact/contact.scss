@@ -70,6 +70,8 @@
 }
 @media only screen and (max-width: 450px){
     .about{
+        width: 100vw;
+        right: -100vw;
         &__top{
             &>h1{
                 font-size: 16px;
