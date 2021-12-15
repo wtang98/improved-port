@@ -56,6 +56,12 @@
     .software{
         width: 100vw;
         right: -100vw;
+        &__top{
+            &>h1{
+                font-size: 16px;
+            }
+        }
+
         &__content{
             grid-template-columns: 1fr;
             width: 100%;
