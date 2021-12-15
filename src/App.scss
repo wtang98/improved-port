@@ -3,10 +3,13 @@
 	margin: 0;
 	padding: 0;
 }
-.App{
+.app{
 	max-width: 100vw;
 	height: 100vh;
 	background-color: $secondary-color;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	&__container{
 		max-width: 100vw;
 		height: 100%;

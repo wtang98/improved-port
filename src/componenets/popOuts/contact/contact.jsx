@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect }  from 'react'
+import React, { useRef, useState, useEffect }  from 'react';
 import './contact.scss';
 import CloseIcon from '@material-ui/icons/Close';
 import { TextField, Button } from "@material-ui/core";
@@ -7,7 +7,9 @@ import InputField from './bits/input';
 import TextareaField from './bits/text';
 import Git from '../../../assets/icons/Git.png';
 import Linked from '../../../assets/icons/Linked.png';
-import Steam from '../../../assets/icons/Steam.png'
+import Steam from '../../../assets/icons/Steam.png';
+import CVIcon from '../../../assets/icons/cvIcon.png';
+import Doc from '../../../assets/docs/cvDov.doc';
 
 const About = ({toggleAboutPop}) => {
     const [values, setValues] = useState({
@@ -79,6 +81,9 @@ const About = ({toggleAboutPop}) => {
                     </a>
                     <a href="https://steamcommunity.com/profiles/76561198049607035?utm_source=SteamLadder.com" target="_blank">
                         <img src={Steam} alt="Steam icon" />
+                    </a>
+                    <a href={Doc} download>
+                        <img src={CVIcon} alt="cv download link" />
                     </a>
                 </div>
             </div>
