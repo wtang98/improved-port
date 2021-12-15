@@ -20,7 +20,7 @@ const UX = ({toggleUxPop}) => {
         <div className="ux">
             <div className="ux__top">
                 <h1>UX design Portfolio</h1>
-                <CloseIcon className="ux__top-close" onClick={toggleUxPop}/>
+                <CloseIcon className="close" onClick={toggleUxPop}/>
             </div>
             <div className="ux__content">  
                 <p>Work Coming soon...</p>

@@ -55,7 +55,7 @@ const About = ({toggleAboutPop}) => {
         <div className="about">
             <div className="about__top">
                 <h1>Get in touch</h1>
-                <CloseIcon onClick={toggleAboutPop}/>
+                <CloseIcon className="close" onClick={toggleAboutPop}/>
             </div>
             <div className="about__form">
             <div className="about__form-container">

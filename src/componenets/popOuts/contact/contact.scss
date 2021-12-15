@@ -16,6 +16,9 @@
         align-items: center;
         justify-content: space-between;
         padding: 30px;
+        .close{
+            cursor: pointer;
+        }
     }
     &__form{
         display: flex;

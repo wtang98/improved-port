@@ -21,7 +21,7 @@ const software = ({toggleSofwarePop}) => {
         <div className="software">
             <div className="software__top">
                 <h1>Software Portfolio</h1>
-                <CloseIcon className="software__top-close" onClick={toggleSofwarePop}/>
+                <CloseIcon className="close" onClick={toggleSofwarePop}/>
             </div>
             <div className="software__content">
                 {card}

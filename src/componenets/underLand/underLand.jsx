@@ -31,7 +31,7 @@ const UnderLand = () => {
                             I attended Swansea university to read War and Society where I received a 2:1.
                         </p>
                         <p>
-                            I like staying active having competed in amateur boxing bouts and gaining a blue blue in Brazilian Jiujitsu
+                            I like staying active having competed in amateur boxing bouts. I have also gained a blue blue in Brazilian Jiujitsu
                         </p>
                     </div>
                 </div>
