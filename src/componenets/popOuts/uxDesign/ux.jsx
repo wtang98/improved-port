@@ -1,6 +1,6 @@
 import React from 'react';
 import './ux.scss';
-import Card from '../../card/Card';
+// import Card from '../../card/Card';
 // import portItems from '../../../jses/portfolioItems';
 import CloseIcon from '@material-ui/icons/Close';
 
