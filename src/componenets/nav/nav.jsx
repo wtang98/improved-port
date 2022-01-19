@@ -31,9 +31,9 @@ const Nav = (props) => {
             <div className="nav__software" onClick={toggleSofwarePop}>
                 Software Portfolio
             </div>
-            <div className="nav__ux" onClick={toggleUxPop}>
+            {/* <div className="nav__ux" onClick={toggleUxPop}>
                 UX Design Portfolio
-            </div>
+            </div> */}
             <div className="nav__about" onClick={toggleAboutPop}>
                 Contact
             </div>
@@ -43,9 +43,9 @@ const Nav = (props) => {
             <div className={aboutState ? "aboutOn":"aboutOff"}>
                 <AboutPop toggleAboutPop={toggleAboutPop}/>
             </div>
-            <div className={uxState ? "uxOn":"uxOff"}>
+            {/* <div className={uxState ? "uxOn":"uxOff"}>
                 <UXPop toggleUxPop={toggleUxPop}/>
-            </div>
+            </div> */}
         </div>
     )
 }
