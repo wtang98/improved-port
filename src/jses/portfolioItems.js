@@ -8,6 +8,7 @@ import asset7 from "../assets/portfolioImages/airbnb.PNG"
 import asset8 from "../assets/portfolioImages/facebook.PNG"
 import asset9 from "../assets/portfolioImages/client.PNG"
 import asset10 from "../assets/portfolioImages/amazon.PNG"
+import asset11 from "../assets/portfolioImages/telsa.PNG"
 
 const items = [
     {
@@ -75,10 +76,17 @@ const items = [
     },
     {
         gHubUrl:"https://clone-e9b58.web.app",
-        cardId:"card910",
+        cardId:"card10",
         backgroundImagePath:asset10,
         title:"Amazon Clone",
         description:"An Amazon clone using react, firebase hosting, firebase database, firebase authentication, redux and Stripe Payments",
+    },
+    {
+        gHubUrl:"https://wtang98.github.io/tesla-clone/",
+        cardId:"card11",
+        backgroundImagePath:asset11,
+        title:"Tesla Clone",
+        description:"A clone of the Tesla website using react and redux.",
     },
 ]
 export default items
