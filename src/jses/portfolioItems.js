@@ -9,6 +9,7 @@ import asset8 from "../assets/portfolioImages/facebook.PNG"
 import asset9 from "../assets/portfolioImages/client.PNG"
 import asset10 from "../assets/portfolioImages/amazon.PNG"
 import asset11 from "../assets/portfolioImages/telsa.PNG"
+import asset12 from "../assets/portfolioImages/weather.PNG"
 
 const items = [
     {
@@ -87,6 +88,13 @@ const items = [
         backgroundImagePath:asset11,
         title:"Tesla Clone",
         description:"A clone of the Tesla website using react and redux.",
+    },
+    {
+        gHubUrl:"https://wtang98.github.io/weather-api/",
+        cardId:"card12",
+        backgroundImagePath:asset12,
+        title:"Weather App",
+        description:"A weather app using weatherApi, geolocatorApi and google maps Api",
     },
 ]
 export default items
