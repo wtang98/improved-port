@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/improved-port/static/css/main.e5646171.chunk.css",
-    "main.js": "/improved-port/static/js/main.257f40d7.chunk.js",
-    "main.js.map": "/improved-port/static/js/main.257f40d7.chunk.js.map",
+    "main.js": "/improved-port/static/js/main.95211374.chunk.js",
+    "main.js.map": "/improved-port/static/js/main.95211374.chunk.js.map",
     "runtime-main.js": "/improved-port/static/js/runtime-main.7d3ac0a3.js",
     "runtime-main.js.map": "/improved-port/static/js/runtime-main.7d3ac0a3.js.map",
     "static/css/2.ae9e5f60.chunk.css": "/improved-port/static/css/2.ae9e5f60.chunk.css",
@@ -36,13 +36,15 @@
     "static/media/punkapi.935274b0.PNG": "/improved-port/static/media/punkapi.935274b0.PNG",
     "static/media/react-icon.e1d40fba.png": "/improved-port/static/media/react-icon.e1d40fba.png",
     "static/media/spring.043e6700.png": "/improved-port/static/media/spring.043e6700.png",
-    "static/media/tickettracker.c7985fc8.PNG": "/improved-port/static/media/tickettracker.c7985fc8.PNG"
+    "static/media/telsa.2e8b1907.PNG": "/improved-port/static/media/telsa.2e8b1907.PNG",
+    "static/media/tickettracker.c7985fc8.PNG": "/improved-port/static/media/tickettracker.c7985fc8.PNG",
+    "static/media/weather.d60174ad.PNG": "/improved-port/static/media/weather.d60174ad.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.7d3ac0a3.js",
     "static/css/2.ae9e5f60.chunk.css",
     "static/js/2.5095fb88.chunk.js",
     "static/css/main.e5646171.chunk.css",
-    "static/js/main.257f40d7.chunk.js"
+    "static/js/main.95211374.chunk.js"
   ]
 }
