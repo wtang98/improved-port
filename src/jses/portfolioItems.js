@@ -72,7 +72,7 @@ const items = [
         gHubUrl:"https://github.com/wtang98/_charlie",
         cardId:"card9",
         backgroundImagePath:asset9,
-        title:"Student/ project tracker manager",
+        title:"Student tracker manager",
         description:"For the final project on the Nology Course, our group created a tracker for students and their projects for Nology; writing the front end in react and backend in Java and SQL.",
     },
     {
