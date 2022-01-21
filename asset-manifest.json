@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/improved-port/static/css/main.e5646171.chunk.css",
-    "main.js": "/improved-port/static/js/main.44ee18bd.chunk.js",
-    "main.js.map": "/improved-port/static/js/main.44ee18bd.chunk.js.map",
+    "main.css": "/improved-port/static/css/main.8eb893c6.chunk.css",
+    "main.js": "/improved-port/static/js/main.8ce46702.chunk.js",
+    "main.js.map": "/improved-port/static/js/main.8ce46702.chunk.js.map",
     "runtime-main.js": "/improved-port/static/js/runtime-main.7d3ac0a3.js",
     "runtime-main.js.map": "/improved-port/static/js/runtime-main.7d3ac0a3.js.map",
     "static/css/2.ae9e5f60.chunk.css": "/improved-port/static/css/2.ae9e5f60.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.5d621f40.chunk.js.map": "/improved-port/static/js/3.5d621f40.chunk.js.map",
     "index.html": "/improved-port/index.html",
     "static/css/2.ae9e5f60.chunk.css.map": "/improved-port/static/css/2.ae9e5f60.chunk.css.map",
-    "static/css/main.e5646171.chunk.css.map": "/improved-port/static/css/main.e5646171.chunk.css.map",
+    "static/css/main.8eb893c6.chunk.css.map": "/improved-port/static/css/main.8eb893c6.chunk.css.map",
     "static/js/2.5095fb88.chunk.js.LICENSE.txt": "/improved-port/static/js/2.5095fb88.chunk.js.LICENSE.txt",
     "static/media/Steam.f5a0a1ba.png": "/improved-port/static/media/Steam.f5a0a1ba.png",
     "static/media/airbnb.54b08031.PNG": "/improved-port/static/media/airbnb.54b08031.PNG",
@@ -44,7 +44,7 @@
     "static/js/runtime-main.7d3ac0a3.js",
     "static/css/2.ae9e5f60.chunk.css",
     "static/js/2.5095fb88.chunk.js",
-    "static/css/main.e5646171.chunk.css",
-    "static/js/main.44ee18bd.chunk.js"
+    "static/css/main.8eb893c6.chunk.css",
+    "static/js/main.8ce46702.chunk.js"
   ]
 }
