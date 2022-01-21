@@ -19,9 +19,9 @@ const Nav = (props) => {
     const toggleAboutPop = () => {
         setAboutState(!aboutState);
     }
-    const toggleUxPop = () => {
-        setUxState(!uxState);
-    }
+    // const toggleUxPop = () => {
+    //     setUxState(!uxState);
+    // }
 
     return (
         <div className="nav">

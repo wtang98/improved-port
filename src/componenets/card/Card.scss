@@ -174,9 +174,9 @@
         &__content{
             .card {
                 width: 25vw;
-                max-width: 350px;
-                height: 20vh;
-                max-height: 350px;
+                max-width: 400px;
+                height: 25vh;
+                max-height: 400px;
                 margin: 1em;
                 // perspective: 1500px;
             }
@@ -194,8 +194,8 @@
             .card {
                 width: 100%;
                 max-width: 400px;
-                height: 23vh;
-                max-height: 350px;
+                height: 25vh;
+                max-height: 400px;
                 margin: 1em;
                 perspective: 1500px;
                 .front{
